@@ -1,0 +1,170 @@
+.section1 {
+    padding: 50px;
+    background-color: black;
+    background-image: url(../Delani/assets/backgrounds/h_img.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#mouse-click{
+    animation: bounce 2s infinite;
+}
+
+img#mouse-click{
+    padding-top: 22px;
+    margin-top: 10%;
+    padding-bottom: 30px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.text-section1 {
+    padding-top: 14%;
+    color: white;
+    font-size: 12px;
+}
+
+.mouse-icon {
+    padding-top: 8%;
+}
+
+.text-pad {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.section2 {
+    padding: 30px;
+    background-color: white;
+    color: black;
+}
+
+.text-section2 {
+    font-size: 12px;
+}
+
+.section3 {
+    padding: 85px;
+    background-image: url(../Delani/assets/backgrounds/s_image.jpg);
+    background-repeat: no-repeat;
+}
+
+.text-section3 {
+    color: white;
+    font-size: 14px;
+}
+
+.section4 {
+    padding: 50px;
+}
+
+.h3 {
+    padding-top: 10px;
+}
+
+.table {
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.caption {
+    font-size: 12px;
+}
+
+.section5 {
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    padding-bottom: 40px;
+}
+
+.section6 {
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background-image: url(../Delani/assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+}
+
+.text-section6 {
+    color: white;
+    font-size: 12px;
+}
+
+.myForm-input {
+    font-size: 12px;
+    padding: 5px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    background: transparent;
+    color: white;
+}
+
+html {
+    font-family: 'Lato', 'Dosi', 'Open Sans', 'San-serif';
+}
+
+form.contact-us {
+    background: transparent;
+    padding-top: 20px;
+}
+
+form.contact-us input,
+form.contact-us textarea,
+div.contact-btn button {
+    margin-bottom: 10px;
+    padding: 7px 5px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+input.contact-email {
+    margin-left: 240px;
+}
+
+div.contact-btn button {
+    padding: 7px 10px;
+    width: 150px;
+    font-weight: bold;
+    transition: border 0.2s;
+    font-size: 1.2rem;
+}
+
+div.contact-btn button:hover {
+    border: 2px solid #fff;
+}
+
+div.footer-imgs {
+    margin-bottom: 10px;
+}
+
+div.footer-imgs img {
+    margin: 7px 5px;
+}
+
+div.footer-msg p {
+    font-size: 0.7rem;
+}
+
+.footsy {
+    padding-top: 30px;
+}
+
+::placeholder {
+    color: white;
+    font-size: 14px;
+}
+
+#magic1,
+#magic2,
+#magic3 {
+    display: none;
+}
+
+.toast {
+    display: none;
+}
