@@ -14,10 +14,11 @@
 > 4. Bootstrap
 > 5. Jquery
 >
-### user stories
-> In the home page,you will  be able to read more about akan names and also know their origin and their respective days.The next page is the about page where you can fill in your birthday details and get to know your akan name according to your birth day.The last page is the contact page where you'll find my contact information and how you can reach out to me.
 ### Links to all projects
 >Below are links to other projects:
+https://wairimu-3.github.io/Akan-Name/
+
+>>This website displays your Akan name according to the day,month and year you were born in.
 
 https://wairimu-3.github.io/portfolio/
 
