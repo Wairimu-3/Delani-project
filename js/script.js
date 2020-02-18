@@ -36,17 +36,17 @@ btn.onclick = function(event) {
     // VALIDATE SUBMITTED INFO
     var x = document.forms["myForm"]["contact-name"].value;
     if (x == "") {
-        alert("Name not entered");
+        alert("Please enter your name");
         return false;
     }
     var y = document.forms["myForm"]["contact-email"].value;
     if (y == "") {
-        alert("Email not entered");
+        alert("Please enter your email");
         return false;
     }
     var z = document.forms["myForm"]["contact-message"].value;
     if (z == "") {
-        alert("You have no message to send");
+        alert("Please enter your message");
         return false;
     }
     var person1Input = $("input#contact-name").val();
