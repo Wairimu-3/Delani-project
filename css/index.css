@@ -1,13 +1,15 @@
-.section1 {
+
+.well {
     padding: 50px;
     background-color: black;
-    background-image: url('./images/wall.jpg');
+    background-image: url('../images/wall.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
-#mouse-click{
+#mouse{
     animation: bounce 2s infinite;
+    padding-top: 5%;
 }
 
 img#mouse-click{
@@ -15,13 +17,12 @@ img#mouse-click{
     margin-top: 10%;
     padding-bottom: 30px;
 }
-
 img {
     vertical-align: middle;
     border-style: none;
 }
 
-.text-section1 {
+.text-well {
     padding-top: 14%;
     color: white;
     font-size: 12px;
@@ -35,32 +36,33 @@ img {
     padding-bottom: 10px;
     padding-top: 10px;
 }
+                   /* //end of section1 styles(welcome sector) */
 
-.section2 {
+.about {
     padding: 30px;
     background-color: white;
     color: black;
+    font-size: 15px;
 }
-
-.text-section2 {
-    font-size: 12px;
-}
-
-.section3 {
+               /* //end of section2 styles(about sector) */
+.services {
     padding: 85px;
-    background-image: url(../Delani/assets/backgrounds/s_image.jpg);
+    background-image: url('../images/lappy.jpg');
     background-repeat: no-repeat;
 }
 
-.text-section3 {
+.serve {
     color: white;
-    font-size: 14px;
+    font-size: 15px;
 }
-
-.section4 {
+            /* //end of section3 styles(service sector) */
+.wwd {
     padding: 50px;
 }
-
+ .wwd-text{
+     font-size: 15px;
+ }
+         /* //end of section4 styles (what we do sector) */
 .h3 {
     padding-top: 10px;
 }
@@ -75,7 +77,7 @@ img {
     font-size: 12px;
 }
 
-.section5 {
+.portfolio {
     align-content: center;
     align-items: center;
     align-self: center;
@@ -89,24 +91,19 @@ img {
     background-repeat: no-repeat;
 }
 
-.text-section6 {
+.cont {
     color: white;
-    font-size: 12px;
+    font-size: 15px;
 }
 
-.myForm-input {
-    font-size: 12px;
+.form-input {
+    font-size: 15px;
     padding: 5px 10px 10px 5px;
     display: block;
     width: 100%;
     background: transparent;
     color: white;
 }
-
-html {
-    font-family: 'Lato', 'Dosi', 'Open Sans', 'San-serif';
-}
-
 form.contact-us {
     background: transparent;
     padding-top: 20px;
