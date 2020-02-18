@@ -1,12 +1,12 @@
 # Delani Studio
-#### Delani studio project, 14/Feb/2020
-#### By **Margaret Kimani**
-## Description
+## Delani studio project, 18/Feb/2020
+### By **Margaret Kimani**
+#### Description
 >>
 
 >Below is a link to the project:
 -----link------
-## Technologies Used
+##### Technologies Used
 >
 > 1. HTML
 > 2. CSS
@@ -33,8 +33,6 @@ https://beryl01.github.io/My-Tailor/
 >>My tailor is a website that gives tailors a platform to sell out and also showcase their good work.It also enables the user to book a tailor and make an order of ready-made clothes or tailored clothes online.The clothes are delivered to you as soon as they are done.
 ### Contact 
 +  Email: kimanimargaret46@gmail.com
--  phone: 0790695591
-+  slack: Margaret Kimani 
 ### License
 MIT licence
 
