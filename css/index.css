@@ -72,6 +72,15 @@ img {
 .h3 {
     padding-top: 10px;
 }
+#magic1,
+#magic2,
+#magic3 {
+    display: none;
+}
+
+.toast {
+    display: none;
+}
                       /* //TABLE */
 .table {
     padding-top: 20px;
@@ -172,15 +181,6 @@ div.footer-msg p {
 ::placeholder {
     color: white;
     font-size: 14px;
-}
-#magic1,
-#magic2,
-#magic3 {
-    display: none;
-}
-
-.toast {
-    display: none;
 }
 h2{
     font-size: 30px;
