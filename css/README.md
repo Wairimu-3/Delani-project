@@ -1,12 +1,12 @@
 # Delani Studio
 ## Delani studio project, 18/Feb/2020
 ### By **Margaret Kimani**
-#### Description
+### Description
 >>
 
 >Below is a link to the project:
 -----link------
-##### Technologies Used
+### Technologies Used
 >
 > 1. HTML
 > 2. CSS
