@@ -1,6 +1,7 @@
 body{
     border: 50px solid white;
 }
+                           /* //WELCOME */
 .well {
     padding: 50px;
     background-color: black;
@@ -88,9 +89,11 @@ img {
     align-self: center;
     padding-bottom: 40px;
 }
-                        /* //end of portfolio */
+                        /* //end of section4 styles (portfolio) */
                         /* //CONTACT US */
-
+#head-contact{
+    color: white;
+}
 .contact {
     padding-top: 35px;
     padding-bottom: 40px;
@@ -147,7 +150,7 @@ div.contact-btn button {
 div.contact-btn button:hover {
     border: 2px solid white;
 }
-          /* //end of contact form */
+          /* //end of section6 (contact form) */
           /* //FOOTER */
           
 div.foot-img{
