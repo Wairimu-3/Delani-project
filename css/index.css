@@ -1,4 +1,6 @@
-
+body{
+    border: 50px solid white;
+}
 .well {
     padding: 50px;
     background-color: black;
