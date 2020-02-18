@@ -37,6 +37,7 @@ img {
     padding-top: 10px;
 }
                    /* //end of section1 styles(welcome sector) */
+                   /* //ABOUT */
 
 .about {
     padding: 30px;
@@ -45,6 +46,7 @@ img {
     font-size: 15px;
 }
                /* //end of section2 styles(about sector) */
+               /* //SERVICES */
 .services {
     padding: 85px;
     background-image: url('../images/lappy.jpg');
@@ -56,17 +58,18 @@ img {
     font-size: 15px;
 }
             /* //end of section3 styles(service sector) */
+            /* //WHAT WE DO */
 .wwd {
     padding: 50px;
 }
  .wwd-text{
      font-size: 15px;
  }
-         /* //end of section4 styles (what we do sector) */
+ 
 .h3 {
     padding-top: 10px;
 }
-
+                      /* //TABLE */
 .table {
     padding-top: 20px;
     margin-left: 20px;
@@ -76,7 +79,7 @@ img {
 .caption {
     font-size: 12px;
 }
-
+                /* //PORTFOLIO */
 .portfolio {
     align-content: center;
     align-items: center;
@@ -84,6 +87,7 @@ img {
     padding-bottom: 40px;
 }
                         /* //end of portfolio */
+                        /* //CONTACT US */
 
 .contact {
     padding-top: 35px;
@@ -142,6 +146,7 @@ div.contact-btn button:hover {
     border: 2px solid white;
 }
           /* //end of contact form */
+          /* //FOOTER */
           
 div.foot-img{
     margin-bottom: 10px;

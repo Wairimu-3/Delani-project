@@ -1,4 +1,4 @@
-//For toggling on WHAT WE DO
+        // WHAT WE DO TOGLE
 $(document).ready(function() {
     $(".onCrack1").click(function() {
         $("#click1").toggle();
@@ -14,7 +14,7 @@ $(document).ready(function() {
     });
 });
 
-// For hover effect on PORTFOLIO
+             //PORTFOLIO HOVER
 $(document).ready(function() {
     $("div.image-frame").hover(function() {
         $(".classAdd1").addClass("mask flex-center rgba-red-strong");
@@ -31,10 +31,9 @@ $(document).ready(function() {
 });
 
 var btn = document.getElementById("myBtn");
-
-// When the user clicks on the button, open the modal 
+                      // OPEN MODAL ON BUTTON CLICK
 btn.onclick = function(event) {
-    // Validate form for entry
+    // VALIDATE SUBMITTED INFO
     var x = document.forms["myForm"]["contact-name"].value;
     if (x == "") {
         alert("Name not entered");
