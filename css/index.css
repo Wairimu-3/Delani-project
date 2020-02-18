@@ -87,7 +87,7 @@ img {
 .section6 {
     padding-top: 35px;
     padding-bottom: 40px;
-    background-image: url(../Delani/assets/backgrounds/c_image.jpg);
+    background-image: url('../images/machine.jpg');
     background-repeat: no-repeat;
 }
 
@@ -104,7 +104,7 @@ img {
     background: transparent;
     color: white;
 }
-form.contact-us {
+.cont{
     background: transparent;
     padding-top: 20px;
 }
@@ -114,15 +114,21 @@ form.contact-us textarea,
 div.contact-btn button {
     margin-bottom: 10px;
     padding: 7px 5px;
-    border: 1px solid #fff;
+    border: 1px solid white;
     background: transparent;
-    color: #fff;
+    color: white;
 }
-
+textarea{
+    width: 50%;
+}
 input.contact-email {
-    margin-left: 240px;
+    margin-left: 21px;
+    width: 23%;
 }
-
+input.contact-name{
+    width: 23%;
+    
+}
 div.contact-btn button {
     padding: 7px 10px;
     width: 150px;
@@ -132,9 +138,10 @@ div.contact-btn button {
 }
 
 div.contact-btn button:hover {
-    border: 2px solid #fff;
+    border: 2px solid white;
 }
-
+          /* //end of contact form */
+          
 div.footer-imgs {
     margin-bottom: 10px;
 }
