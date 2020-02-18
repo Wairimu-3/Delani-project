@@ -16,6 +16,7 @@
 >
 ### Links to all projects
 >Below are links to other projects:
+
 https://wairimu-3.github.io/Akan-Name/
 
 >>This website displays your Akan name according to the day,month and year you were born in.
