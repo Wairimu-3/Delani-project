@@ -158,23 +158,22 @@ div.contact-btn button {
     transition: border 0.2s;
     font-size: 1.2rem;
 }
-
-div.contact-btn button:hover {
+.contact-btn button:hover {
     border: 2px solid white;
 }
           /* //end of section6 (contact form) */
           /* //FOOTER */
           
-div.foot-img{
+.foot-img{
     margin-bottom: 10px;
 }
 
-div.footer-imgs img {
+.footer-imgs img {
     margin: 7px 5px;
 }
 
-div.footer-msg p {
-    font-size: 0.7rem;
+.footer-msg p {
+    font-size: 10pxrem;
 }
 
 .footsy {
