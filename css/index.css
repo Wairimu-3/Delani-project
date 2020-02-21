@@ -1,5 +1,5 @@
 body{
-    border: 60px solid white;
+    border: px solid white;
 }
 h2{
     font-size: 15px;
@@ -18,7 +18,7 @@ h2{
 }
 
 #mouse{
-    animation: bounce 2s infinite;
+    animation: bounce 5s infinite;
     padding-top: 5%;
 }
 
@@ -46,7 +46,6 @@ img {
     padding-bottom: 10px;
     padding-top: 10px;
 }
-                   /* //end of section1 styles(welcome sector) */
                    /* //ABOUT */
 
 .about {
@@ -55,7 +54,6 @@ img {
     color: black;
     font-size: 15px;
 }
-               /* //end of section2 styles(about sector) */
                /* //SERVICES */
 .services {
     padding: 85px;
@@ -67,7 +65,6 @@ img {
     color: white;
     font-size: 15px;
 }
-            /* //end of section3 styles(service sector) */
             /* //WHAT WE DO */
 .wwd {
     padding: 50px;
@@ -101,11 +98,7 @@ img {
     align-self: center;
     padding-bottom: 40px;
 }
-                        /* //end of section4 styles (portfolio) */
-                        /* //CONTACT US */
-#head-contact{
-    color: white;
-}
+                            /* //CONTACT */
 .contact {
     padding-top: 35px;
     padding-bottom: 40px;
@@ -115,18 +108,20 @@ img {
 
 .cont {
     color: white;
-    font-size: 15px;
+    font-size: 12px;
 }
 
-.form-input {
-    font-size: 15px;
+.myForm-input {
+    font-size: 12px;
     padding: 5px 10px 10px 5px;
     display: block;
     width: 100%;
     background: transparent;
     color: white;
 }
-.cont{
+
+
+form.contact-us {
     background: transparent;
     padding-top: 20px;
 }
@@ -140,28 +135,29 @@ div.contact-btn button {
     background: transparent;
     color: white;
 }
-textarea{
-    width: 50%;
-}
+
 input.contact-email {
-    margin-left: 21px;
-    width: 23%;
+    margin-left: 60px;
+    width: 15%;
 }
 input.contact-name{
-    width: 23%;
-    
+    width: 15%;
+}
+textarea{
+    width:35%;
+    height:50%;
 }
 div.contact-btn button {
     padding: 7px 10px;
     width: 150px;
     font-weight: bold;
     transition: border 0.2s;
-    font-size: 1.2rem;
+    font-size: 15px;
 }
-.contact-btn button:hover {
+
+div.contact-btn button:hover {
     border: 2px solid white;
 }
-          /* //end of section6 (contact form) */
           /* //FOOTER */
           
 .foot-img{

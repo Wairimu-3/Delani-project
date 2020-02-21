@@ -1,4 +1,4 @@
-        // WHAT WE DO TOGLE
+       
 $(document).ready(function() {
     $(".onCrack1").click(function() {
         $("#click1").toggle();
@@ -14,7 +14,7 @@ $(document).ready(function() {
     });
 });
 
-             //PORTFOLIO HOVER
+            
 $(document).ready(function() {
     $("div.image-frame").hover(function() {
         $(".classAdd1").addClass("mask flex-center rgba-red-strong");
@@ -30,10 +30,10 @@ $(document).ready(function() {
     });
 });
 
-var btn = document.getElementById("myBtn");
-                      // OPEN MODAL ON BUTTON CLICK
+var btn = document.getElementById("myBtn")
+
+                     
 btn.onclick = function(event) {
-    // VALIDATE SUBMITTED INFO
     var x = document.forms["myForm"]["contact-name"].value;
     if (x == "") {
         alert("Please enter your name");
