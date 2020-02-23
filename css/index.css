@@ -105,12 +105,13 @@ img {
     background-image: url('../images/machine.jpg');
     background-repeat: no-repeat;
 }
-
+.contact-us{
+    font-size: 15px;
+}
 .cont {
     color: white;
     font-size: 12px;
 }
-
 .myForm-input {
     font-size: 12px;
     padding: 5px 10px 10px 5px;
@@ -136,16 +137,22 @@ div.contact-btn button {
     color: white;
 }
 
-input.contact-email {
-    margin-left: 60px;
-    width: 15%;
+#email {
+    width: 26%;
+    margin-left: 20px;
 }
-input.contact-name{
-    width: 15%;
+#name{
+    width: 26%;
+}
+.name-input{
+    margin-right: 30%;
+}
+.form-group{
+    margin-left: 32%;
 }
 textarea{
-    width:35%;
-    height:50%;
+    width: 38%;
+    height:57%;
 }
 div.contact-btn button {
     padding: 7px 10px;
@@ -157,7 +164,11 @@ div.contact-btn button {
 
 div.contact-btn button:hover {
     border: 2px solid white;
-}
+}  
+#button{
+    background: transparent;
+    color: white;
+}         
           /* //FOOTER */
           
 .foot-img{

@@ -30,28 +30,15 @@ $(document).ready(function() {
     });
 });
 
-var btn = document.getElementById("myBtn")
+function myMessage() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("comment").value;
+    if (email !== "" && name !== "" && message !== "") {
+      // document.getElementById("pop").innerHTML =
+      alert("Hello" + " " + name + " we have received your message. Thank you for reaching out to us.");
+    } else if (email == "" || name !== "" || message !== "") {
+      alert("Please fill in all the details");
+    }
+  }
 
-                     
-btn.onclick = function(event) {
-    var x = document.forms["myForm"]["contact-name"].value;
-    if (x == "") {
-        alert("Please enter your name");
-        return false;
-    }
-    var y = document.forms["myForm"]["contact-email"].value;
-    if (y == "") {
-        alert("Please enter your email");
-        return false;
-    }
-    var z = document.forms["myForm"]["contact-message"].value;
-    if (z == "") {
-        alert("Please enter your message");
-        return false;
-    }
-    var person1Input = $("input#contact-name").val();
-    $("span#outputName").append(person1Input);
-
-    $('.toast').toast('show');
-    event.preventDefault();
-}

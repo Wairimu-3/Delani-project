@@ -225,13 +225,17 @@
         <div class="cont">
             <h3>CONTACT US</h3>
             <form name="myForm" action="" class="contact-us">
-                <input type="text" placeholder="Name..." class="contact-name" id="contact-name">
-                <input type="email" placeholder="Email.." class="contact-email" id="contact-email">
-                <div>
-                    <textarea name="" id="contact-message" cols="100" rows="10" placeholder="Your message here..."></textarea>
-                </div>
-                <div class="contact-btn">
-                    <button id="myBtn">Submit</button>
+                <div class="form-group form-inline">
+                      <input type="text" class="form" placeholder="Name...." name="name" id="name" value="" 
+                    data-msg="Please enter at least 4 characters">
+                      <input type="email" class="form" placeholder="Email...." name="email" id="email" value="" 
+                    data-msg="Please enter a valid email">
+                  </div>
+                  <div>
+                    <textarea rows="8" id="comment" placeholder="Write your message here...." 
+                    data-msg="Please write something for us"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary" onclick="myMessage()" id="button">Submit</button>
                 </div>
             </form>
             <div role="alert" aria-live="assertive" aria-atomic="true" class="toast" data-autohide="false">
@@ -295,4 +299,4 @@
     </section>
 </body>
 
-</html>
+</html> 
