@@ -5,7 +5,8 @@
 >>
 
 >Below is a link to the project:
------link------
+
+ https://wairimu-3.github.io/Delani-project/
 ### Technologies Used
 >
 > 1. HTML
