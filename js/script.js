@@ -41,3 +41,7 @@ function myMessage() {
         alert("Please fill in all the details");
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 30af90fa1cc35bfd2727c7e7acba7d7f10b5fc12

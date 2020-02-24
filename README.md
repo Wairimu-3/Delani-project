@@ -26,7 +26,7 @@ If you experience issues that are related to my site and are hindering you from 
 Email :kimanimargaret46@gmail.com
 
 ### License
-MIT licence
+MIT license
 
 https://choosealicense.com/licenses/mit/
 
