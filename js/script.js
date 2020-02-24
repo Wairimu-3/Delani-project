@@ -1,31 +1,31 @@
-       
-$(document).ready(function() {
-    $(".onCrack1").click(function() {
+
+$(document).ready(function () {
+    $(".onCrack1").click(function () {
         $("#click1").toggle();
         $("#magic1").toggle();
     });
-    $(".onCrack2").click(function() {
+    $(".onCrack2").click(function () {
         $("#magic2").toggle();
         $("#click2").toggle();
     });
-    $(".onCrack3").click(function() {
+    $(".onCrack3").click(function () {
         $("#magic3").toggle();
         $("#click3").toggle();
     });
 });
 
-            
-$(document).ready(function() {
-    $("div.image-frame").hover(function() {
+
+$(document).ready(function () {
+    $("div.image-frame").hover(function () {
         $(".classAdd1").addClass("mask flex-center rgba-red-strong");
     });
-    $("div.image-frame").hover(function() {
+    $("div.image-frame").hover(function () {
         $(".classAdd2").addClass("mask flex-center rgba-blue-light");
     });
-    $("div.image-frame").hover(function() {
+    $("div.image-frame").hover(function () {
         $(".classAdd3").addClass("mask flex-center rgba-green-slight");
     });
-    $("div.image-frame").hover(function() {
+    $("div.image-frame").hover(function () {
         $(".classAdd4").addClass("mask flex-center");
     });
 });
@@ -35,10 +35,9 @@ function myMessage() {
     var email = document.getElementById("email").value;
     var message = document.getElementById("comment").value;
     if (email !== "" && name !== "" && message !== "") {
-      // document.getElementById("pop").innerHTML =
-      alert("Hello" + " " + name + " we have received your message. Thank you for reaching out to us.");
+        // document.getElementById("pop").innerHTML =
+        alert("Hello" + " " + name + " we have received your message. Thank you for reaching out to us.");
     } else if (email == "" || name !== "" || message !== "") {
-      alert("Please fill in all the details");
+        alert("Please fill in all the details");
     }
-  }
-
+}
