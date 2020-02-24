@@ -13,7 +13,8 @@ It consists of 7 sections:
 
 Below is a link to the project
 
-https://wairimu-3.github.io/Delani-project/
+ https://wairimu-3.github.io/Delani-project/
+
 
 ## Known Bugs
 There are no known bugs. In case you do encounter any, please contact us on the deatils below.
