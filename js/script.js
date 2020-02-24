@@ -41,4 +41,3 @@ function myMessage() {
         alert("Please fill in all the details");
     }
 }
-
